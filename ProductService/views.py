@@ -1,5 +1,7 @@
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, redirect
+from django.views.generic import View
+from ProductService.forms import LoginForm, RegisterForm
 from django.core.paginator import Paginator
 from django.views.generic import View
 from ProductService.forms import LoginForm, RegisterForm, ListingSearchForm

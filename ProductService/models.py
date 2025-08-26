@@ -12,8 +12,7 @@ class CustomUser(AbstractUser):
     def __str__(self):
         return self.username
 
-
-
+      
 class ProductCategory(models.Model):
     name = models.CharField(max_length=50)
 
